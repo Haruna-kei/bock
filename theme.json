@@ -108,7 +108,7 @@
 					},
 					"name": "Extra Extra Large",
 					"size": "56px",
-					"slug": "custom-1"
+					"slug": "extra-extra-large"
 				},
 				{
 					"fluid": {
@@ -117,7 +117,7 @@
 					},
 					"name": "Extra Large",
 					"size": "32px",
-					"slug": "custom-2"
+					"slug": "extra-large"
 				},
 				{
 					"fluid": {
@@ -126,7 +126,7 @@
 					},
 					"name": "Large",
 					"size": "24px",
-					"slug": "custom-3"
+					"slug": "large"
 				},
 				{
 					"fluid": {
@@ -135,22 +135,22 @@
 					},
 					"name": "Semi Large",
 					"size": "20px",
-					"slug": "custom-4"
+					"slug": "semi-large"
 				},
 				{
 					"name": "Medium",
 					"size": "16px",
-					"slug": "custom-5"
+					"slug": "medium"
 				},
 				{
 					"name": "Small",
 					"size": "13px",
-					"slug": "custom-6"
+					"slug": "small"
 				},
 				{
 					"name": "Extra Small",
 					"size": "11px",
-					"slug": "custom-7"
+					"slug": "extra-small"
 				}
 			]
 		},
