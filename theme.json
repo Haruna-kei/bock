@@ -405,7 +405,13 @@
 			}
 		},
 		"spacing": {
-			"blockGap": "0px"
+			"blockGap": "0px",
+			"padding": {
+				"bottom": "0px",
+				"left": "var(--wp--preset--spacing--24)",
+				"right": "var(--wp--preset--spacing--24)",
+				"top": "0px"
+			}
 		},
 		"typography": {
 			"fontFamily": "var(--wp--preset--font-family--noto-sans-jp)",
