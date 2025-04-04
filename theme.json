@@ -118,6 +118,7 @@
 			]
 		},
 		"spacing": {
+			"defaultSpacingSizes": false,
 			"units": [
 				"%",
 				"px",
@@ -125,10 +126,66 @@
 				"rem",
 				"vh",
 				"vw"
+			],
+			"spacingSizes": [
+				{
+					"name": "10",
+					"size": "clamp(0.5rem, 0.438rem + 0.25vw, 0.625rem)",
+					"slug": "10"
+				},
+				{
+					"name": "12",
+					"size": "clamp(0.625rem, 0.563rem + 0.25vw, 0.75rem)",
+					"slug": "12"
+				},
+				{
+					"name": "16",
+					"size": "clamp(0.75rem, 0.627rem + 0.51vw, 1rem)",
+					"slug": "16"
+				},
+				{
+					"name": "20",
+					"size": "clamp(1rem, 0.877rem + 0.51vw, 1.25rem)",
+					"slug": "20"
+				},
+				{
+					"name": "24",
+					"size": "clamp(1.25rem, 1.127rem + 0.51vw, 1.5rem)",
+					"slug": "24"
+				},
+				{
+					"name": "30",
+					"size": "clamp(1.5rem, 1.315rem + 0.76vw, 1.875rem)",
+					"slug": "30"
+				},
+				{
+					"name": "40",
+					"size": "clamp(1.875rem, 1.566rem + 1.27vw, 2.5rem)",
+					"slug": "40"
+				},
+				{
+					"name": "60",
+					"size": "clamp(2.5rem, 1.883rem + 2.53vw, 3.75rem)",
+					"slug": "60"
+				},
+				{
+					"name": "80",
+					"size": "clamp(3.75rem, 3.133rem + 2.53vw, 5rem)",
+					"slug": "80"
+				},
+				{
+					"name": "100",
+					"size": "clamp(5rem, 4.383rem + 2.53vw, 6.25rem)",
+					"slug": "100"
+				}
 			]
 		},
 		"typography": {
 			"defaultFontSizes": false,
+			"fluid": {
+				"minViewportWidth": "390px",
+				"maxViewportWidth": "1180px"
+			},
 			"fontFamilies": [
 				{
 					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
